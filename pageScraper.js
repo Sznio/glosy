@@ -12,6 +12,7 @@ const scraperObject = {
             const submit = await page.$('[title="Prześlij"]');
             await button.click();
             await submit.click();
+
             return;
       },
 };
